@@ -4,14 +4,15 @@ import json
 import oauth2 as oauth
 
 # You need to set these
-consumer_key = ''
-consumer_secret = ''
+consumer_key = 'com.maynebridge.kivabridge'
+consumer_secret = 'tIvvtFJm5srCnwgzxDyLGqkwvdzfoEwz'
 
 # If you have set up a callback URL at build.kiva.org, you should enter it below. Otherwise leave it as 'oob'
 callback_url = 'oob';
 
 # This is the URL of the protected resource you want to access
-resource_url = 'https://api.kivaws.org/v1/my/account.json'
+# resource_url = 'https://api.kivaws.org/v1/my/account.json'
+resource_url = 'https://api.kivaws.org/v1/my/loans.json'
 
 # These should stay the same, probably
 request_token_url = 'https://api.kivaws.org/oauth/request_token.json?oauth_callback='+urllib.quote_plus(callback_url)

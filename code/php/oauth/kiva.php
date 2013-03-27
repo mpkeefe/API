@@ -2,8 +2,8 @@
 require_once("lib/OAuth.php");
 
 // You need to set these
-$key = '';
-$secret = '';
+$key = 'com.maynebridge.kivabridge';
+$secret = 'tIvvtFJm5srCnwgzxDyLGqkwvdzfoEwz';
 
 // If you have set up a callback URL at build.kiva.org, you should enter it below. Otherwise leave it as 'oob'
 $callback_url = 'oob';
